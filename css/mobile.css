@@ -1,0 +1,280 @@
+
+@font-face {
+    font-family:"TTLakes-normal";
+    src: url(../fonts/TTLakes-Black.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-bold";
+    src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-italic";
+    src: url(../fonts/TTLakes-BlackItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-bold-italic";
+    src: url(../fonts/TTLakes-BoldItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'TTLakes-regular';
+    src: url(../fonts/TTLakesCompressed-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TTLakes-medium";
+    src: url(../fonts/TTLakes-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@media (max-width: 320px) {
+
+button{
+    border:0;
+}
+
+.page-nav {
+    width: 100%;
+    display: flex;
+    height: 87px;  
+    justify-content: space-around;
+}
+
+.page-nav__more {
+    padding-left: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-nav__more button{
+    padding:0;
+
+}
+
+.page-nav__more img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+
+}
+
+.page-nav__logo {
+    padding: 19px 17px;
+}
+
+.page-nav__logo img {
+    width: 96.548px;
+    height: 50.815px;
+    flex-shrink: 0;
+}
+
+.page-nav__divider {
+    width: 2px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: #EAEAEA;
+    padding-top: 32px;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+
+.page-nav__repair {
+    padding-top: 24px;
+}
+
+.page-nav__repair button{
+    padding: 0;
+    border:1px solid;
+    border-radius:50%;
+    border-color: white;
+}
+
+.page-nav__repair img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.page-nav__check-status {
+    padding-left: 16px;
+    padding-top: 24px;
+
+}
+
+.page-nav__check-status button{
+    padding: 0;
+    border:1px solid;
+    border-radius:50%;
+    border-color: white;
+
+}
+
+.shadow {
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    background: #D9FFF5;
+}
+
+.main-info__highlight img{
+    margin-top: 24px;
+    width: 4px;
+    height: 40px;
+}
+
+.main-info__highlight{
+    width: 0;
+    height: 0;
+    display: flex;
+}
+
+.main-info__title{
+    color: #1B1C21;
+    font-family: TTLakes-bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 16px;
+    
+}
+
+
+
+    .main-info__slider {
+      display: flex;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .main-info__slider::-webkit-scrollbar {
+      display: none; 
+    }
+    
+    .main-info__slider div {
+      flex: 0 0 auto; 
+      padding: 10px;
+      white-space: nowrap;
+    font-family: TTLakes-medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    }
+
+
+.main-info__slider a{
+    padding-top: 8px;
+    padding: 8px;
+    color: #7E7E82;
+    margin-bottom: 0;
+}
+
+.main-info__slider div:checked{
+    border-radius: 6px;
+    border: 2px solid #B8FFEC;
+    background: #FFF;
+}
+.main-info__slider a:focus{
+    border-radius: 6px;
+    border: 2px solid #B8FFEC;
+    background: #FFF;
+}
+
+.main-info__about{
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
+    color: #1B1C21;
+    font-family: TTLakes-medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.2px;
+}
+
+main{
+    background: #F8F8F8;
+    width: 100%;
+}
+
+.main-info__read-next{
+    margin-left: 12px;
+    color: #1B1C21;
+    font-family: TTLakes-medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+}
+
+.main-info__photo-tablet{
+    display: none;
+}
+
+.main-info__photo-pc{
+    display: none;
+}
+
+.main-info__photo-mobile{
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.main-info__photo_mobile img{
+    width: 100%;
+}
+
+.main-info__about-tablet{
+    display: none;
+}
+
+.main-info__about-pc{
+    display: none;
+}
+
+.page-nav__call{
+    display: none;
+}
+
+.page-nav__chat{
+    display: none;
+}
+
+.page-nav__profile{
+    display: none;
+}
+
+
+.main-info__checkstatus-pc{
+    display: none;
+}
+
+.main-info__repair-pc{
+    display: none;
+}
+
+
+}
